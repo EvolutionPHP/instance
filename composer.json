@@ -1,0 +1,25 @@
+{
+  "name": "evolutionphp/instance",
+  "description": "Convert PHP classes to static",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "php",
+    "static",
+    "instance"
+  ],
+  "authors": [
+    {
+      "name": "Andres Mendoza",
+      "homepage": "https://twitter.com/EvolutionPHP"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "EvolutionPHP\\Instance\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  }
+}
